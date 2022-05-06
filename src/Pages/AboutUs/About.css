@@ -1,0 +1,61 @@
+
+.About article{
+    display: flex;
+    
+}
+.Block{
+      background-image: linear-gradient(
+180deg,#fff1ec,#fefaf8); 
+/* background-color: #fff; */
+padding: 50px 0;
+}
+
+.About{
+    width: 80%;
+    margin: 0 auto;
+  
+}
+
+.LeftBlock{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: flex-start;
+   
+    
+}
+
+
+.RightBlock{
+    /* display: flex; */
+    flex-basis: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 100px 100px;
+}
+.card-img-top{
+    width:50px;
+    height: 50px;
+    margin:20px ;
+}
+ .card:hover{
+cursor: pointer;
+}
+
+.FirstBlock{
+    width: 80%;
+}
+.FirstBlock article{
+    display: flex;
+   
+}
+
+.imgRight{
+    flex-basis: 50%;
+    justify-content: flex-start;
+}
+
+.imgLeft{
+    flex-basis: 50%;
+    justify-content: flex-end;
+    width:100px;
+}

@@ -1,0 +1,58 @@
+#sliderBlock {
+  width: 80%;
+  margin: 0 auto;
+}
+#sliderBlock article {
+  display: flex;
+}
+
+.sliderLeftBlock {
+  flex-basis: 50%;
+  justify-content: flex-start;
+}
+.sliderRightBlock {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+.slideBlock {
+  background-color: rgba(255, 160, 0, 0.09);
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.sliderRightBlock img:nth-child(1) {
+  width: 200px;
+  margin-top: -50px;
+}
+.sliderLeftBlock p:nth-child(1) {
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+.couponCode {
+  border: 1px solid;
+  padding: 15px 15px;
+  border-style: dashed;
+  display: inline-block;
+  font-size: 16px;
+}
+.sliderLeftBlock h1 h3 {
+  font-weight: bold;
+}
+.storeBlock img {
+  padding: 10px 10px;
+}
+.sliderRightBlock img:nth-child(2) {
+  width: 300px;
+  margin-left: 100px;
+   position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+  /* animation-delay: 2s; */
+}
+@keyframes example {
+   /* 0%   {left:0px; top:0px;} */
+  /* 25%  { left:200px; top:0px;} */
+  50%  { left:200px; right:200px;} 
+  /* 75%  { left:0px; top:200px;} */
+  100% { left:0px; right:0px;}
+}

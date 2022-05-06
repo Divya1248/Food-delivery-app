@@ -1,0 +1,67 @@
+/* .block{
+     background-image:url("http://images.all-free-download.com/images/graphiclarge/wood_background_hd_picture_3_169844.jpg") ;
+    background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+   filter:drop-shadow(),
+} */
+
+.block {
+  /* background-color: rgb(204, 205, 206); */
+  background-color: #fff;
+
+  margin-top: 10px;
+  border-radius: 0px 0px 146px 0px;
+  border: 1px solid #fff;
+}
+
+.block article {
+  display: flex;
+  /* background-color: #fff1ec; */
+}
+
+.Left {
+  flex-basis: 50%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Right {
+  flex-basis: 30%;
+  justify-content: flex-end;
+}
+
+.Left h1 {
+  text-align: center;
+  margin-top: 80px;
+  color: #111;
+  margin-left: 294px;
+}
+.Left h3 {
+  text-align: center;
+  margin-top: 10px;
+  color: #111;
+  margin-left: 241px;
+}
+
+.Left p {
+  text-align: center;
+  margin-top: 20px;
+  color: #111;
+  margin-left: 290px;
+}
+
+.Left img {
+  margin-left: 350px;
+  margin-top: -11px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.Right img {
+  border-radius: 150px 0px 150px 0px;
+  height: 423px;
+  margin-left: 288px;
+  margin-left: 300px;
+  width: 590px;
+}

@@ -1,0 +1,98 @@
+.RestBlock {
+  display: flex;
+  width: 100%;
+}
+
+.leftimg {
+  background-image: url("http://images.all-free-download.com/images/graphiclarge/wood_background_hd_picture_3_169844.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  filter: drop-shadow();
+  flex-basis: 50%;
+  display: flex;
+}
+.leftimg h3 {
+  color: #fff;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+.leftimg a {
+  color: #fff;
+  border: 1px solid #111;
+  background-color: #18739f;
+  padding: 10px 10px;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 200px;
+}
+
+.rightimg {
+  flex-basis: 50%;
+}
+
+.Head {
+  text-align: center;
+}
+.formBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formBlock form {
+  border: 1px solid #cccc;
+  padding: 20px 10px;
+  /* width:100%; */
+  height: 50vh;
+  background-color: #efefef;
+  box-shadow: 1px 1px 1px #cccc;
+}
+.formBlock form input {
+  padding: 5px 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.Upload {
+  height: 50px;
+  position: absolute;
+  margin-top: 200px;
+  width: 150px;
+  background-color: #18739f;
+  border: 1px solid #111;
+  margin-left: 40px;
+}
+
+/* ======================================================= */
+#items {
+  display: flex;
+   flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#items .itemBlock{
+    flex-basis: 24%;
+  margin: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+} 
+
+
+#items .itemBlock img {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+
+#items .itemBlock main h1 {
+  font-size: 18px;
+  color: royalblue;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+} 

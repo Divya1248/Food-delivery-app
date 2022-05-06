@@ -1,0 +1,89 @@
+.btnBlock {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn1 {
+  width: 40%;
+  /* background-color: blue; */
+  color: #000;
+  height: 50px;
+  border-radius: 30px;
+}
+.btn2 {
+  width: 40%;
+  /* background-color:red; */
+  color: #000;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.btn1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.Sign {
+  border-radius: 30px;
+  display: block;
+  width: 100%;
+  padding: 10px 10px;
+  margin-top: 10px;
+}
+
+.Sign a {
+  text-decoration: none;
+  color: black;
+}
+
+.logBlock {
+  background-color: rgb(255, 243, 238);
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.Main{
+  padding-top: 30px;
+}
+.logBlock form {
+  border: 1px solid #cccc;
+  padding: 15px 28px;
+  margin-top: 13px;
+  
+}
+
+
+#call{
+      background: #cccc;
+    box-shadow: 1px 3px 3px 4px;
+  margin-top: 30px;
+  padding: 10px;
+  height: 250px;
+}
+
+#call input{
+  width:80%;
+  padding: 10px;
+}
+
+#pass{
+  border:1px solid #eee;
+  width:500px;
+  height: 200px;
+  margin-left: 400px;
+  padding: 10px;
+  margin-top: 30px;
+
+}
+
+#pass input{
+  width:300px;
+  padding: 10px;
+}
